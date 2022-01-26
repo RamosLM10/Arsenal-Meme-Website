@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Zen Dots', cursive;
+	text-align: center;
+	background-color: black;
+	margin: 0;
+}
+
+#logo {
+	background-repeat: no-repeat;
+	position: relative;
+	height: 100px;
+	width: 100px;
+	padding-top: 0.1px;
+}
+
+header {
+	font-family: 'Zen Dots', cursive;
+	text-align: center;
+	color: rgb(227, 99, 122);
+	font-size: 5.5em;
+	padding-bottom: 40px;
+	position: relative;
+}
+
+p {
+	font-family: 'Zen Dots', cursive;
+	text-align: center;
+	color: rgb(227, 99, 122);
+	display: flex;
+	font-size: 20px;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 1em;
+	padding-bottom: 5em;
+	width: 70%; 
+	word-wrap: break-word;
+	margin-left: 10em;
+}
+
+#nav-bar {
+	font-size: 1.5em;
+  	/*width: 65%;*/
+  	text-align: center;
+  	position: relative;
+}
+
+.nav-link {
+	/*margin: 100px;*/
+  	text-decoration: none;
+  	color: rgb(54, 79, 109);
+  	padding: 35px;
+}
+
+.nav-link:hover {
+	color: rgb(227, 99, 122);
+  	transition: .5s;
+}
+
+img {
+  margin-top: 2em;
+  vertical-align: middle;
+  height: 400px;
+  width: 400px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+	p {
+		margin-left: 5em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	p {
+		margin-left: 4em;
+	}
+}
+
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(227, 99, 122);
+}
+
+footer {
+	font-family: 'Zen Dots', cursive;
+	text-align: center;
+	color: rgb(227, 99, 122);
+	font-size: 15px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+

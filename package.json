@@ -1,0 +1,11 @@
+{
+  "name": "arsenal-meme-web",
+  "version": "1.0.0",
+  "description": "collection of memes regarding arsenal",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Ramos",
+  "license": "ISC"
+}
